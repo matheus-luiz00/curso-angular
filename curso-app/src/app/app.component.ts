@@ -7,4 +7,10 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "curso-app";
+
+  showRecipe = true;
+
+  onHeaderClick(event) {
+    this.showRecipe = event;
+  }
 }
